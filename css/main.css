@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    background-color: lightgray;
+}
+/*parte del header*/
+.main-class{
+    margin-bottom: 50px;
+    padding: 15px;
+    background-color: white; 
+        
+}
+.logo{
+    vertical-align: middle;
+}
+/*parte della pagina*/
+.container{
+    font-size: 60px;
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
