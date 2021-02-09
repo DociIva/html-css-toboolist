@@ -11,17 +11,94 @@ body{
 /*parte del header*/
 .main-class{
     margin-bottom: 50px;
-    padding: 15px;
+    padding: 20px;
     background-color: white; 
         
 }
 .logo{
     vertical-align: middle;
 }
+
+/*parte dei bottini*/
+.bottone{
+    margin: auto;
+    padding: 10px;
+    color: white;
+    background-color: rgb(13, 128, 204);
+    border-color:rgb(13, 128, 204) ;
+    border-radius: 10%;
+}
+
+.bottone-2{
+    margin: auto;
+    padding: 10px;
+    color: lightgrey;
+    border-color: lightgrey;
+    border-radius: 10%;
+}
+
+hr{
+    margin-bottom: 10px;
+    border-color: #fffbfb;
+}
+
 /*parte della pagina*/
 .container{
-    font-size: 60px;
     width: 1200px;
     margin: auto;
+    padding: 40px;
+    border-radius: 5px;
     background-color: white;
-}
+} 
+
+/*lista degli argomenti*/
+ .lista{
+     list-style: none;
+     margin-bottom: 30px;
+
+ }
+ /*parte dell'icona con esito*/
+
+ .icona{
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+     margin-right: 10px;
+     vertical-align: middle;
+     text-align: center;
+     font-size: 14px;
+     color: limegreen;
+     border: 1px solid limegreen;
+     border-radius: 50%;
+
+ }
+ .icona-rimossa{
+     color: red;
+     border: 1px solid red;
+ }
+/*Bottini affianco*/
+ .bot-elenco{
+     width: 80px;
+     margin: auto;
+     padding: 10px;
+     color: white;
+     background-color: rgb(13, 128, 204);
+     border-color: rgb(13, 128, 204));
+     border-radius: 20%;
+ }
+ /*bottoni colorati*/
+  .viola{
+     background-color: rgb(104, 4, 104);
+  }
+  .verde{
+     background-color: teal;
+  }
+  .arancione{
+    background-color: rgb(255, 166, 0);
+  }
+  .fuchsia{
+    background-color: fuchsia;
+  }
+  .lime{
+    background-color: lime;
+  }
