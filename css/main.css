@@ -84,7 +84,8 @@ hr{
      color: white;
      background-color: rgb(13, 128, 204);
      border-color: rgb(13, 128, 204));
-     border-radius: 20%;
+     border-radius: 50px;
+     opacity: 0.8;
  }
  /*bottoni colorati*/
   .viola{
